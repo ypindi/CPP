@@ -20,7 +20,7 @@ int main()
     cout << "--------------" << endl;
     cout << G[5] << endl;
     cout << G.at(5) << endl;
-    // this includes 1, 2, and 3rd letters.
+    // from index 1 for a length of 3.
     cout << G.substr(1, 3) << endl;
     i = 1;
     for (i = 1; i < 6; i++)

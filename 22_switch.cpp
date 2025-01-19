@@ -1,4 +1,4 @@
-// C Program to create a simpe calculator using switch
+// C Program to create a simple calculator using switch
 // statement
 #include <iostream>
 #include <stdlib.h>

@@ -22,3 +22,10 @@ int main()
 
     return 0;
 }
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>g++ -o 6.exe 6.cpp
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>6.exe
+// a is vowel
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>

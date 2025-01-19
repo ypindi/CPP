@@ -48,3 +48,21 @@ int main()
 
     return 0;
 }
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>g++ -o 35.exe 35_arrays.cpp
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>35.exe
+// Enter the number of elements:
+// 3
+// Enter the elements: 1 2 3
+// Elements you added are: 1       2       3
+// -----------
+// 2       0       0       0       0       Length of an array: 3
+// 0x25451ff7b0
+// 0x25451ff7b0
+// first element: 1
+// Second element: 2
+// Third element: 3
+// fourth element: 499
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>

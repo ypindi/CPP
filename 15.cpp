@@ -4,10 +4,10 @@ std::string str = "Hello, World!";
 std::string newStr = std::move(str); // Ownership of "Hello, World!" is moved to newStr
 
 string str = "hello";
-string str2 = std::move(str)
+string str2 = std::move(str);
 
-    // Lambda functions
-    auto add = [](int a, int b) -> int
+// Lambda functions
+auto add = [](int a, int b) -> int
 { return a + b; };
 std::cout << add(5, 3); // Output: 8
 

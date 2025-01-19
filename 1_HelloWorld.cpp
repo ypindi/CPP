@@ -21,3 +21,11 @@ int main()
     cout << "Type for name is: " << sizeof(name);
     cout << "Type for name is: " << sizeof(age);
 }
+
+/*
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> g++ -o 1.exe .\1_HelloWorld.cpp
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>1.exe
+// Hello World
+// Type for name is: 32Type for name is: 4
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+*/

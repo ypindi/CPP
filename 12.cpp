@@ -40,3 +40,12 @@ int main()
 // Output
 // What is your name? Anusha
 // HelloooooooAnusha
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>g++ -o 12.exe 12.cpp
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>12.exe
+// What is your name? Anusha
+// HelloooooooAnusha
+// Displaying the concept of defining member functions from outside the class
+
+// D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
