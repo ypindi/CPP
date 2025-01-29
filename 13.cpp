@@ -33,3 +33,11 @@ int main()
     cout << "Geek id is: " << obj2.id << endl;
     return 0;
 }
+
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> g++ -o .\13.exe .\13.cpp
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\13.exe
+// Default Constructor called
+// Geek id is: -1
+// Parameterized Constructor called
+// Geek id is: 21
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>

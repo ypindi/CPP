@@ -3,18 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    string str1("Hello");
-    string str2(" World");
-
-    // Concatenation str1 and str2
-    str1.append(str2);
-
-    cout << str1 << endl;
-    return 0;
-}
-
 // Additional Stuff below
 
 void relationalOperation(string s1, string s2)
@@ -56,8 +44,6 @@ void compareFunction(string s1, string s2)
 
 // C++ Program to demonstrate string concatenation
 // using '+' operator
-#include <bits/stdc++.h>
-using namespace std;
 
 int main()
 {
@@ -65,7 +51,15 @@ int main()
     string str2(" World");
 
     // Concatenation str1 and str2
-    str1 = str1 + str2;
+    str1.append(str2);
+
+    cout << str1 << endl;
+    // return 0;
+    string str3("Hello");
+    string str4(" World");
+
+    // Concatenation str1 and str2
+    str3 = str3 + str4;
     // or
     // strcat(str1, str2);
 
@@ -74,6 +68,6 @@ int main()
     // for (auto i : str2)
     //     str1 += i;
 
-    cout << str1 << endl;
+    cout << str3 << endl;
     return 0;
 }

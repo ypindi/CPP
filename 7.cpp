@@ -71,3 +71,20 @@ int main()
     cout << G.find_last_of('s');
     return 0;
 }
+
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\7.exe
+// 15
+// 15
+// 15
+// --------------
+// f
+// f
+// eek
+// eeksf
+// ////////////////////////
+// 2
+// 15
+// 0
+// Found the pattern at position 1
+// 412
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>

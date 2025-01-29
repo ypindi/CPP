@@ -27,10 +27,33 @@ int main()
         i++;
     }
 
+    int x = str.size() - 1;
+    int y = 0;
+    string str3;
+    while (x >= 0)
+    {
+        // str3[y] = str[x];
+        // x--;
+        // y++;
+        str3.push_back(str[x]);
+        x--;
+    }
+
     cout << "Reversed string: " << str2 << endl;
+    cout << "Reversed string: " << str3 << endl;
 
     return 0;
 }
+
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> g++ -o .\14.exe .\14.cpp
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\14.exe
+// Reversed string: !dlroW ,olleH
+// Reversed string: !dlroW ,olleH
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
 
 // str2.append(str[j]);
 
