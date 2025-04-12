@@ -46,3 +46,10 @@ int main()
     neons.getNeons();
     return 0;
 }
+
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\31.exe
+// Constructor Called
+// All Neon Numbers in this range are:
+// 1       9
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
