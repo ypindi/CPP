@@ -60,6 +60,26 @@ void geeks()
 // Driver program
 int main() { geeks(); }
 
+// Output
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\27.exe
+// address of n1 in main(): 0xd869fff71c
+// Square of n1: address of n1 in square1(): 0xd869fff6f0
+// 64
+// No change in n1: 8
+
+// address of n2 in main(): 0xd869fff718
+// address of n2 in square2(): 0xd869fff718
+// Square of n2: 64
+// Change reflected in n2: 64
+
+// address of n3 in main(): 0xd869fff714
+// address of n3 in square3(): 0xd869fff714
+// Square of n3: 64
+// Change reflected in n3: 64
+
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
+
 // Normal Pointer usage - same as n2 example above
 // #include <iostream>
 
