@@ -27,18 +27,26 @@ public:
     {
         return length * breadth;
     }
+    int totalVolume()
+    {
+        return length * breadth * height;
+    }
 };
 
 int main()
 {
     Area a(10, 5);
+    a.setHeight(20);
+    cout << a.totalVolume() << endl;
     cout << a.getPerimeter() << endl;
     return 0;
 }
 
 // PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> g++ -o .\5_practice.exe .\5_practice.cpp
+// PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
 // PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++> .\5_practice.exe
 // Area constructor called
+// 1000
 // 30
 // Destructor called
 // PS D:\Yashwanth\HTW_Berlin\Self_Learnings\C++>
